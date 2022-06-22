@@ -1,0 +1,21 @@
+{
+  "name": "simple-custom-errors",
+  "version": "1.0.0",
+  "description": "A simple custom error set-up for nodejs",
+  "type": "module",
+  "engines": {
+    "node": ">= 6.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "create": "bash ./script/create.sh --simple",
+    "create-set": "bash ./script/create.sh --full",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "errors"
+  ],
+  "author": "smrv95code",
+  "license": "MIT"
+}
